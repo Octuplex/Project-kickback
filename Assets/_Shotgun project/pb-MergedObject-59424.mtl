@@ -1,0 +1,16 @@
+newmtl Green_glow
+Kd 1 1 1
+d 1
+
+newmtl New_Material_2
+Kd 0.7426471 0.7426471 0.7426471
+d 1
+
+newmtl New_Material_1
+Kd 0.3308823 0.3333153 0.3333153
+d 1
+
+newmtl New_Material
+Kd 0.6176471 0.6176471 0.6176471
+d 1
+
