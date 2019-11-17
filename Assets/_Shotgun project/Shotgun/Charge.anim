@@ -48,28 +48,6 @@ AnimationClip:
         outSlope: Infinity
         tangentMode: 103
       - serializedVersion: 2
-        time: 1.5
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Pickup/Charge particles/CFX_ElectricityBall
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-      - serializedVersion: 2
         time: 3
         value: 1
         inSlope: Infinity
@@ -248,9 +226,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (7)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -270,9 +248,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (8)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -292,9 +270,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (9)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -314,9 +292,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (10)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -336,9 +314,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (11)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -358,9 +336,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (12)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -380,9 +358,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (13)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -402,9 +380,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (14)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -424,9 +402,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (15)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -446,9 +424,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (16)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -468,9 +446,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (17)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -490,9 +468,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (18)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -512,9 +490,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (19)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -534,9 +512,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (20)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -556,9 +534,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (21)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -578,9 +556,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (22)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -600,9 +578,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (23)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -622,9 +600,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (24)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -639,13 +617,6 @@ AnimationClip:
       attribute: 508611034
       script: {fileID: 0}
       typeID: 75
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 131520283
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
@@ -706,129 +677,129 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3923291710
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1849733873
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2002486192
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3467994958
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3618526735
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 4236445132
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3851957389
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2866389578
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3015873291
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2565849288
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2180313481
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 107801926
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 527948807
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3438532887
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3588810838
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 4274371477
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3890121428
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2828999699
-      attribute: 2086281974
+      attribute: 1087013301
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -873,28 +844,6 @@ AnimationClip:
     attribute: m_RelativeForce.z
     path: ForceApplicator
     classID: 75
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-      - serializedVersion: 2
-        time: 1.5
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Pickup/Charge particles/CFX_ElectricityBall
-    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1084,9 +1033,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (7)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1106,9 +1055,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (8)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1128,9 +1077,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (9)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1150,9 +1099,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (10)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1172,9 +1121,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (11)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1194,9 +1143,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (12)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1216,9 +1165,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (13)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1238,9 +1187,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (14)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1260,9 +1209,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (15)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1282,9 +1231,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (16)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1304,9 +1253,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (17)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1326,9 +1275,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (18)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1348,9 +1297,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (19)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1370,9 +1319,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (20)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1392,9 +1341,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (21)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1414,9 +1363,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (22)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1436,9 +1385,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (23)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1458,9 +1407,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: EmissionModule.enabled
     path: Pickup/Bullet particles/Bullet particles (24)
-    classID: 1
+    classID: 198
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
